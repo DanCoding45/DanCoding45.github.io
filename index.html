@@ -5,7 +5,19 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Webpage</h1>
+        <h1 id="pageTitle">Welcome to My Webpage</h1>
     </header>
+
+    <main>
+        <button id="changeHeaderButton">Change Header</button>
+    </main>
+
+    <script>
+        // JavaScript code to change the header text
+        document.getElementById('changeHeaderButton').addEventListener('click', function() {
+            var pageTitle = document.getElementById('pageTitle');
+            pageTitle.textContent = "Danny Lin";
+        });
+    </script>
 </body>
 </html>
