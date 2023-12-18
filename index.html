@@ -15,14 +15,12 @@
     </header>
 
     <main>
-        <button id="changeHeaderButton">Change Header</button>
+        <button id="goToAboutPage">Go to About Page</button>
     </main>
 
     <script>
-        // JavaScript code to change the header text
-        document.getElementById('changeHeaderButton').addEventListener('click', function() {
-            var pageTitle = document.getElementById('pageTitle');
-            pageTitle.textContent = "About Us";
+        document.getElementById('goToAboutPage').addEventListener('click', function() {
+            window.location.href = 'about.html'; // Navigate to the 'about.html' page
         });
     </script>
 </body>
