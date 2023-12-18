@@ -4,17 +4,56 @@
     <title>Center Aisle Events</title>
     <style>
         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
             background-color: green;
-            /* You can add more CSS styles here */
+        }
+
+        /* Style for the navigation bar */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: lightgray;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1 id="pageTitle">Welcome to Center Aisle Events</h1>
+        <h1 id="pageTitle">Center Aisle Events</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <!-- Add more navigation items as needed -->
+            </ul>
+        </nav>
     </header>
 
     <main>
+        <!-- Your main content here -->
         <button id="goToAboutPage">Go to About Page</button>
     </main>
 
