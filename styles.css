@@ -1,3 +1,10 @@
+/* use periods for classes
+use hashtags for id's */
+
+header {
+    background-color: navy;
+}
+
 nav {
     background-color: #f1b3b3;
     padding: 8px;
@@ -6,18 +13,23 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #f4f4f4;
     text-decoration: none;
     margin-right: 20px;
     font-family: 'Crimson Pro', serif;
-    font-size: 20px; /* Increased font size */
+    font-size: 20px; 
 }
 
 nav img {
     height: 80px;
     width: 80px;
-    margin-right: 10px;
+    margin-right: 20px;
+    border: 2px solid #f4f4f4;
 }
+
+main {
+    padding: 25px;
+} 
 
 body {
     font-family: Arial, sans-serif;
@@ -25,6 +37,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    line-height: 1.6;
     /* background-color: #fff5e1;  */
 }
 
@@ -40,9 +53,30 @@ a {
 }
 
 section {
+    margin-top: 30px;
     margin-bottom: 30px;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 } 
+
+.vertical-input {
+    display: block;
+    width: 40%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#small-field {
+    height: 40px;
+}
+
+#big-field {
+    height: 120px;
+}
+
