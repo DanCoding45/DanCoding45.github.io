@@ -2,21 +2,68 @@
 use hashtags for id's */
 
 header {
-    background-color: navy;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; 
+    background-color: #d5e1dd;
 }
 
+header i {
+    padding: 0px;
+    padding-left: 12px;
+}
+
+header a {
+    text-decoration: none; 
+    font-style: italic;
+    color: inherit; 
+    cursor: pointer; 
+}
+
+/* svg styling section -----------------------------------------------------------------------------------------*/
+
+.fa-phone {
+    font-size: 0.9em;
+    color: white;
+}
+
+.fa-instagram {
+    font-size: 1.1em; /* Adjust the size as needed */
+    color: white;
+    cursor: pointer;
+  }
+
+.fa-envelope {
+    color: white;
+    cursor: pointer;
+}
+
+/* end svg styling ---------------------------------------------------------------------------------------------*/
+
 nav {
-    background-color: #f1b3b3;
-    padding: 8px;
+    /* background-color: #f1b3b3; */
+    position: fixed;
+    width: 100%;
+    top: 4.9%; 
+    z-index: 999;
+
+
+    /* background-color: #808080; */
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 12px;
     display: flex;
     align-items: center;
 }
 
 nav a {
     color: #f4f4f4;
-    text-decoration: none;
+    font-style: italic;
+    text-decoration: underline;
     margin-right: 20px;
-    font-family: 'Crimson Pro', serif;
+    /* font-family: 'Merriweather', serif; */
+    /* font-family: 'Dancing Script', handwriting; */
+    font-family: 'Playfair Display', serif;
     font-size: 20px; 
 }
 
@@ -32,13 +79,12 @@ main {
 } 
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Playfair Display', serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
-    /* background-color: #fff5e1;  */
 }
 
 ul {
@@ -47,19 +93,96 @@ ul {
     margin: 0; 
 }
 
-a {
-    font-style: italic;
-    text-decoration: underline !important;
+#home-cover-image {
+    width: 100%;
 }
 
 section {
     margin-top: 30px;
     margin-bottom: 30px;
-    padding: 20px;
+    margin-left: 12px;
+    width: 42%;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 12px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-} 
+}
+
+section p {
+    width: 28%;
+}
+/* begin container styling --------------------------------------------------------------------------------------- */
+.container {
+    display: flex;
+    padding-bottom: 4%;
+}
+
+.container .null {
+    flex: 1;
+    width: 10%;
+    height: 10%;
+    background-color: #fff;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+#main-floral {
+    background-image: url(pics/logo.jpg);
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+}
+
+#main-planning {
+    background-image: url(pics/main_decoration.jpg);
+    background-size: contain; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+}
+
+#main-decor {
+    background-image: url(pics/main_decoration.jpg);
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+}
+
+#main-about {
+    background-image: url(pics/main_decor_2.jpg);
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+}
+
+.container p {
+    padding-left: 3%;
+    width: 35%;
+}
+
+.container h2 {
+    padding-top: -10%;
+    padding-left: 3%;
+    font-style: italic;
+    font-size: 25px;
+}
+
+/* end container styling ----------------------------------------------------------------------------------------- */
+
+.welcome-title {
+    padding-top: 4%;
+    font-style: italic;
+    text-align: center;
+}
+
+.welcome-text {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4%;
+}
 
 .vertical-input {
     display: block;
