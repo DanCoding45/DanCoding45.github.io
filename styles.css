@@ -133,25 +133,25 @@ section p {
   }
 
 #main-floral {
-    background-image: url(pics/logo.jpg);
+    background-image: url(logo.jpg);
     background-size: cover; /* Adjust as needed */
     background-position: center; /* Adjust as needed */
 }
 
 #main-planning {
-    background-image: url(pics/main_decoration.jpg);
+    background-image: url(main_decoration.jpg);
     background-size: contain; /* Adjust as needed */
     background-position: center; /* Adjust as needed */
 }
 
 #main-decor {
-    background-image: url(pics/main_decoration.jpg);
+    background-image: url(main_decoration.jpg);
     background-size: cover; /* Adjust as needed */
     background-position: center; /* Adjust as needed */
 }
 
 #main-about {
-    background-image: url(pics/main_decor_2.jpg);
+    background-image: url(main_decor_2.jpg);
     background-size: cover; /* Adjust as needed */
     background-position: center; /* Adjust as needed */
 }
