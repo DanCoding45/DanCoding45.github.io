@@ -11,7 +11,7 @@ header {
 
 header i {
     padding: 0px;
-    padding-left: 12px;
+    padding-left: 1%;
 }
 
 header a {
@@ -51,7 +51,7 @@ nav {
 
     /* background-color: #808080; */
     background-color: rgba(128, 128, 128, 0.5);
-    padding: 12px;
+    padding: 1%;
     display: flex;
     align-items: center;
 }
@@ -64,7 +64,7 @@ nav a {
     /* font-family: 'Merriweather', serif; */
     /* font-family: 'Dancing Script', handwriting; */
     font-family: 'Playfair Display', serif;
-    font-size: 20px; 
+    font-size: 130%; 
 }
 
 nav img {
@@ -146,28 +146,28 @@ section p {
   }
 
 #main-floral {
-    background-image: url(logo.jpg);
+    background-image: url(pics/logo.jpg);
     background-size: cover; /* Adjust as needed */
     background-position: center; /* Adjust as needed */
     cursor: pointer;
 }
 
 #main-planning {
-    background-image: url(tent_daylight.jpg);
+    background-image: url(pics/tent_daylight.jpg);
     background-size: contain; /* Adjust as needed */
     background-position: center; /* Adjust as needed */
     cursor: pointer;
 }
 
 #main-decor {
-    background-image: url(main_decoration.jpg);
+    background-image: url(pics/main_decoration.jpg);
     background-size: cover; /* Adjust as needed */
     background-position: center; /* Adjust as needed */
     cursor: pointer;
 }
 
 #main-about {
-    background-image: url(mr_and_mrs.jpg);
+    background-image: url(pics/mr_and_mrs.jpg);
     background-size: cover; /* Adjust as needed */
     background-position: center; /* Adjust as needed */
     cursor: pointer;
